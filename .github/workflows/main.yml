@@ -1,4 +1,4 @@
-# .github/workflows/log4j-scan.yml
+# .github/workflows/Log4jDeepScanAction.yml
 name: Log4j Vulnerability Scan
 
 on:
@@ -18,7 +18,7 @@ jobs:
 
     - name: Log4j Vulnerability Scanner
       # You may pin to the exact commit or the version.
-      uses: UMCSResearchLog/Log4jDeepScanAction@initial
+      uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.1
       with:
         # The directory to scan for vulnerabilities.
         directory: ${{ github.workspace }}
