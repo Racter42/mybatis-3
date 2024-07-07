@@ -16,6 +16,6 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Log4j Vulnerability Scanner
-      uses: YourGitHubUsername/Log4jDeepScanAction@initial.0.4
+      uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.4
       with:
         directory: ${{ github.workspace }}
