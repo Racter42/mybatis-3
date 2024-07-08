@@ -19,6 +19,6 @@ jobs:
       run: ls
       
     - name: Log4j Vulnerability Scanner
-      uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.7
+      uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.8
       with:
         directory: ${{ github.workspace }}
