@@ -15,12 +15,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
       
-    - name: check source dir
-      run: cd - 
-      
     - name: Get directory
       run: ls
+      
     - name: Log4j Vulnerability Scanner
-      uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.6
+      uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.7
       with:
         directory: ${{ github.workspace }}
