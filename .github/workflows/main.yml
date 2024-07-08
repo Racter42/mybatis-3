@@ -15,6 +15,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Get directory
+      run: ls
+
     - name: Log4j Vulnerability Scanner
       uses: UMCSResearchLog/Log4jDeepScanAction@initial.0.5
       with:
